@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src='/public/invoice.js'></script>
+</head>
+<body onload="getInvoiceInfo(<?= $invoiceId ?>)">
+
+<div class="row">
+
+    <div class="col-1 col-md-2">
+
+    </div>
+
+    <div class="col-10 col-md-8">
+        <h3>New invoice</h3>
+        <form action='/invoice/edit/<?= $invoiceId ?>' method="POST" id="invoice-form">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <h5>Billing from</h5>
+                    <div class="form-group">
+                        <label for="issuer_company_name">Company Name</label>
+                        <input type="text" class="invoice-input form-control" id="issuer_company_name"
+                               name='invoice_issuer_company_name' readonly
+                               placeholder="Company name">
+                    </div>
+                    <div class="form-group">
+                        <label for="issuer_cui">CUI</label>
+                        <input type="text" class="invoice-input form-control" id="issuer_cui" name='invoice_issuer_cui' readonly
+                               placeholder="CUI">
+                    </div>
+                    <div class="form-group">
+                        <label for="issuer_register_number">Register number</label>
+                        <input type="text" class="invoice-input form-control" id="issuer_register_number" readonly
+                               name='invoice_issuer_register_number'
+                               aria-describedby="emailHelp"
+                               placeholder="Register number">
+                    </div>
+                    <div class="form-group">
+                        <label for="issuer_name">Issuer name</label>
+                        <input type="text" class="invoice-input form-control" id="issuer_name"
+                               name="invoice_issuer_name"
+                               placeholder="Issuer name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="issuer_cnp">Issuer CNP</label>
+                        <input type="text" pattern="^[0-9]+$" class="invoice-input form-control" id="issuer_CNP"
+                               name="invoice_issuer_cnp"
+                               placeholder="Issuer CNP"
+                               required>
+                    </div>
+                    <div class="form-group">
+                        <label for="issuer_identity_card">Issuer ID Card</label>
+                        <input type="text" class="invoice-input form-control" id="issuer_identity_card"
+                               name="invoice_issuer_identity_card"
+                               placeholder="Issuer ID Card" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="emmited_date">Issued on</label>
+                        <input type="date" class="invoice-input form-control" id="emmited_date"
+                               name="invoice_emmited_date"
+                               required>
+                    </div>
+                    <div class="form-group">
+                        <label for="due_date_of_payment">Payment date</label>
+                        <input type="date" class="invoice-input form-control" id="due_date_of_payment"
+                               name="invoice_due_date_of_payment" required>
+                    </div>
+                    <div class="form-check form-switch mt-3">
+                        <input class="invoice-input form-check-input" type="checkbox" name="invoice_is_paid"
+                               role="switch" id="is_paid">
+                        <label class="form-check-label" for="is_paid">Paid</label>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <h5>Billing to</h5>
+                    <div class="form-group">
+                        <label for="customer_name">Company Name</label>
+                        <input type="text" class="invoice-input form-control" id="customer_name"
+                               name="invoice_customer_name"
+                               placeholder="Company name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customer_CUI">CUI</label>
+                        <input type="text" class="invoice-input form-control" id="customer_CUI"
+                               name='invoice_customer_CUI' placeholder="CUI"
+                               required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customer_register_number">Register number</label>
+                        <input type="text" class="invoice-input form-control" id="customer_register_number"
+                               name="invoice_customer_register_number" aria-describedby="emailHelp"
+                               placeholder="Register number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customer_phone">Phone number</label>
+                        <input type="text" class="invoice-input form-control" pattern="^[0-9]+$" id="customer_phone"
+                               name="invoice_customer_phone"
+                               placeholder="Phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customer_address">Address</label>
+                        <textarea class="invoice-input form-control" rows="2" id="customer_address" required
+                                  name='invoice_customer_address'></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="discount_percent_value">Discount</label>
+                        <div class="input-group mb-3">
+                            <input type="number" min="0" max="100" id="discount_percent_value"
+                                   name="invoice_discount_percent_value" class="invoice-input form-control"
+                                   placeholder="%" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Edit invoice</button>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <h3>Products on invoice</h3>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" type="button" id="add-item" onclick="addItem(1)"><i
+                            class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="row align-items-center invoiceProductForm">
+                <div class="col-1">
+                    <div class="form-group">
+                        <label for="sku">SKU</label>
+                        <input type="text" autocomplete="off" class="product-input form-control basicAutoComplete"
+                               id="sku" name='product_sku' placeholder="SKU"
+                               required>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="form-group">
+                        <label for="quantity">Qty.</label>
+                        <input type="text" class="product-input form-control" id="quantity"
+                               name='product_quantity' placeholder="Qty."
+                               required>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="product-input  form-control" id="name"
+                               placeholder="Product name" name="product_name"
+                               required disabled>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <input type="text" class="product-input form-control" id="description"
+                               placeholder="Product description" name="product_description" required disabled>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                        <label for="value_without_vat">Value no VAT</label>
+                        <input type="text" class="product-input form-control" id="value_without_vat"
+                               name="product_value_no_vat" placeholder="Value no VAT"
+                               required disabled>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="form-group">
+                        <label for="vat_percent">VAT</label>
+                        <input type="text" class="product-input form-control" id="vat_percent"
+                               name="product_value_vat" placeholder="%" required disabled>
+                    </div>
+                </div>
+                <div class="col-1 ">
+                    <button class="btn btn-danger rounded-circle mt-4" type="button" id="delete-item"
+                            onclick="deleteItem(this)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+        </form>
+        <div class="col-6">
+
+        </div>
+    </div>
+
+    <div class="col-1 col-md-2 ">
+
+    </div>
+</div>
+
+</body>
+</html>

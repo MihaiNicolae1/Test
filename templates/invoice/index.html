@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src='../../public/invoice.js'></script>
+
+</head>
+<body>
+
+
+<div class="row">
+    <div class="col-12 col-sm-2 filter_box">
+        <div class='mt-5 mb-5'>
+           <?php echo $filters; ?>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-8">
+        <h3 class="mb-4">Dashboard with invoices</h3>
+        <?php
+            if(empty($invoices))
+                echo '<h3>No products to show</h3>';
+        else
+        echo $table;
+        ?>
+        <?php
+         if($pagination){
+            echo $pagination;
+         }?>
+        <a class="link-primary" href="/invoice/new">New invoice</a>
+    </div>
+    <div class="col-12 col-sm-2">
+
+
+    </div>
+</div>
+
+</body>
+</html>

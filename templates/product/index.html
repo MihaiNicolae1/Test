@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="row">
+    <div class="col-1 col-md-2">
+
+    </div>
+    <div class="col-10 col-md-8">
+        <?php
+            if(empty($companyProducts))
+                echo '<h3>No products to show</h3>';
+        else
+        echo $table;
+        ?>
+        <?php
+         if($pagination){
+            echo $pagination;
+         }?>
+        <a href="/product/add">Add new product</a>
+
+
+    </div>
+    <div class="col-1 col-md-2">
+
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf2f08ca-a323-409a-84d6-8c27ebdb7c6e" name="Changes" comment="Release of v0.0.1.2 &#10;Notes: &#10;- Added charts statistics" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phroute/phroute" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2Bmjfwl8wr8cn1dZwr4Q5u6VMDf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-20.04/home/mdnicolae/qa2dev-mihai&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.JavaScript&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\account" />
+      <recent name="C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\company" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\mdnicolae\qa2dev-mihai\src\config" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\mdnicolae\qa2dev-mihai\src" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\mdnicolae\qa2dev-mihai\templates\account" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf2f08ca-a323-409a-84d6-8c27ebdb7c6e" name="Changes" comment="" />
+      <created>1657518260562</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657518260562</updated>
+      <workItem from="1657518261780" duration="332000" />
+      <workItem from="1657518654768" duration="3219000" />
+      <workItem from="1657869802809" duration="1267000" />
+      <workItem from="1657891869111" duration="350000" />
+      <workItem from="1658237143480" duration="3864000" />
+      <workItem from="1658296949446" duration="9770000" />
+      <workItem from="1658390497049" duration="10600000" />
+      <workItem from="1659943463924" duration="115000" />
+      <workItem from="1659947244996" duration="6905000" />
+      <workItem from="1659957073005" duration="44000" />
+      <workItem from="1660110175626" duration="2167000" />
+      <workItem from="1660652602456" duration="23137000" />
+      <workItem from="1660740387954" duration="2856000" />
+      <workItem from="1660802861199" duration="16017000" />
+      <workItem from="1660901053566" duration="43337000" />
+      <workItem from="1661250791267" duration="39286000" />
+      <workItem from="1661405788358" duration="65000" />
+      <workItem from="1661850173963" duration="15030000" />
+      <workItem from="1661928007324" duration="14618000" />
+      <workItem from="1661951004297" duration="28485000" />
+      <workItem from="1662376559303" duration="24000" />
+      <workItem from="1662381815719" duration="16142000" />
+      <workItem from="1662468128208" duration="41050000" />
+      <workItem from="1662704034919" duration="873000" />
+      <workItem from="1662705621557" duration="55226000" />
+      <workItem from="1663056867490" duration="28005000" />
+      <workItem from="1663141474890" duration="494000" />
+      <workItem from="1663144021449" duration="19046000" />
+      <workItem from="1663220289199" duration="38841000" />
+      <workItem from="1663333713714" duration="1840000" />
+      <workItem from="1663336603171" duration="796000" />
+      <workItem from="1663568611329" duration="9801000" />
+      <workItem from="1663739577727" duration="17000" />
+      <workItem from="1664963093033" duration="3482000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added first files along with controllers and some views">
+      <created>1660110631162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660110631162</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added more routes and views">
+      <created>1660657993970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660657993970</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Entities and Repositories">
+      <created>1661152826394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661152826394</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added multiple functionalities">
+      <created>1662704390292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662704390292</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added pagination, pdf, and multiple functionalities">
+      <created>1663072749932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663072749933</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added filtering, more root functionalities and edit invoices">
+      <created>1663311170010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663311170010</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Release of version 0.0.1">
+      <created>1663320458052</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663320458053</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Release of v0.0.1.2 &#10;Notes: &#10;- Added charts statistics">
+      <created>1663581954808</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663581954808</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added first files along with controllers and some views" />
+    <MESSAGE value="Added more routes and views" />
+    <MESSAGE value="Added Entities and Repositories" />
+    <MESSAGE value="Added multiple functionalities" />
+    <MESSAGE value="Added pagination, pdf, and multiple functionalities" />
+    <MESSAGE value="Added filtering, more root functionalities and edit invoices" />
+    <MESSAGE value="Release of version 0.0.1" />
+    <MESSAGE value="Release of v0.0.1.2 &#10;Notes: &#10;- Added charts statistics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Release of v0.0.1.2 &#10;Notes: &#10;- Added charts statistics" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

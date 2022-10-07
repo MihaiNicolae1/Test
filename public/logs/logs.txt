@@ -1,0 +1,844 @@
+timestamp => 1663147592 IP => ::1 message => Your account is inactive! Please talk with an admin!
+timestamp => 1663147625 IP => ::1 message => Account does not exist!
+timestamp => 1663148093 IP => ::1 message => Account does not exist!
+timestamp => 1663148752 IP => ::1 message => Error: Call to undefined method App\Services\FlashService::flassh() in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php:24
+Stack trace:
+#0 {main}
+timestamp => 1663148753 IP => ::1 message => Error: Call to undefined method App\Services\FlashService::flassh() in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php:24
+Stack trace:
+#0 {main}
+timestamp => 1663148757 IP => ::1 message => Error: Call to undefined method App\Services\FlashService::flassh() in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php:24
+Stack trace:
+#0 {main}
+timestamp => 1663148768 IP => ::1 message => Error: Call to undefined method App\Services\FlashService::flassh() in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php:24
+Stack trace:
+#0 {main}
+timestamp => 1663158040 IP => ::1 message => ParseError: syntax error, unexpected token ")", expecting "(" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:224
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(33): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\InvoiceController->__construct()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#5 {main}
+timestamp => 1663158103 IP => ::1 message => ParseError: syntax error, unexpected token ")" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:229
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(33): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\InvoiceController->__construct()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#5 {main}
+timestamp => 1663159982 IP => ::1 message => ParseError: syntax error, unexpected token "{" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\BaseRepository.php:80
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\CompanyRepository.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(31): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\InvoiceController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663159983 IP => ::1 message => ParseError: syntax error, unexpected token "{" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\BaseRepository.php:80
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\CompanyRepository.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(31): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\InvoiceController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663159984 IP => ::1 message => ParseError: syntax error, unexpected token "{" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\BaseRepository.php:80
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\CompanyRepository.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(31): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\InvoiceController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663160350 IP => ::1 message => ParseError: syntax error, unexpected single-quoted string " AND " in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\BaseRepository.php:72
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\CompanyRepository.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(31): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\InvoiceController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663160351 IP => ::1 message => ParseError: syntax error, unexpected single-quoted string " AND " in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\BaseRepository.php:72
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\CompanyRepository.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(31): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\InvoiceController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663160351 IP => ::1 message => ParseError: syntax error, unexpected single-quoted string " AND " in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\BaseRepository.php:72
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\CompanyRepository.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(31): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\InvoiceController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663160353 IP => ::1 message => ParseError: syntax error, unexpected single-quoted string " AND " in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\BaseRepository.php:72
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\ProductRepository.php(5): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\ProductController.php(25): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\ProductController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663160353 IP => ::1 message => ParseError: syntax error, unexpected single-quoted string " AND " in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\BaseRepository.php:72
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\UserRepository.php(5): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(26): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\AccountController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663160354 IP => ::1 message => ParseError: syntax error, unexpected single-quoted string " AND " in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\BaseRepository.php:72
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\UserRepository.php(5): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\HomeController.php(16): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\HomeController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663160354 IP => ::1 message => ParseError: syntax error, unexpected single-quoted string " AND " in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\BaseRepository.php:72
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\CompanyRepository.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(31): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\InvoiceController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663160355 IP => ::1 message => ParseError: syntax error, unexpected single-quoted string " AND " in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\BaseRepository.php:72
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Repository\CompanyRepository.php(7): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(31): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\InvoiceController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663226956 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\ProductController.php on line 52 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\ProductController.php(52): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\ProductController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663226961 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 56 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(56): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663226965 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 56 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(56): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228397 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228401 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228402 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228402 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228434 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228435 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php on line 56 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(56): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\InvoiceController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228436 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php on line 56 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(56): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\InvoiceController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228455 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php on line 56 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(56): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\InvoiceController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228456 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php on line 56 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(56): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\InvoiceController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228457 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228539 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228540 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228540 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228540 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228541 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228541 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228541 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228541 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228542 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228542 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228542 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228542 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228543 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228543 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228543 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228544 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228578 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228581 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php on line 56 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(56): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\InvoiceController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228582 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228583 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228658 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228659 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 53 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(53): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228681 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 52 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(52): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228682 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php on line 52 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(52): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\AccountController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663228780 IP => ::1 message => TypeError: App\Services\BaseService::createTable(): Argument #1 ($objectsArray) must be of type array, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php on line 56 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:9
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(56): App\Services\BaseService->createTable()
+#1 [internal function]: App\Controller\InvoiceController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663230607 IP => ::1 message => ParseError: syntax error, unexpected token "if" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:44
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\UserService.php(5): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(27): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\AccountController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663231032 IP => ::1 message => ParseError: syntax error, unexpected token "if" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:45
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\UserService.php(5): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php(27): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\AccountController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663231033 IP => ::1 message => ParseError: syntax error, unexpected token "if" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:45
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php(14): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(33): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\InvoiceController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663231033 IP => ::1 message => ParseError: syntax error, unexpected token "if" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\BaseService.php:45
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\ProductService.php(5): Composer\Autoload\ClassLoader->loadClass()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(571): include('...')
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\ProductController.php(26): Composer\Autoload\ClassLoader->loadClass()
+#5 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\HandlerResolver.php(16): App\Controller\ProductController->__construct()
+#6 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(56): Phroute\Phroute\HandlerResolver->resolve()
+#7 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#8 {main}
+timestamp => 1663231625 IP => ::1 message => Your account is inactive! Please talk with an admin!
+timestamp => 1663233256 IP => ::1 message => TypeError: App\Entity\ProductInvoice::setProductQuantity(): Argument #1 ($product_quantity) must be of type int, null given, called in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php on line 179 and defined in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Entity\ProductInvoice.php:55
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(179): App\Entity\ProductInvoice->setProductQuantity()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663234850 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:267
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(184): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663235062 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:267
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(184): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663235096 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:267
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(184): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663235505 IP => ::1 message => TypeError: Cannot access offset of type string on string in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php:162
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->postCancel()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663235515 IP => ::1 message => TypeError: Cannot access offset of type string on string in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\LoginService.php:38
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(43): App\Services\LoginService::getCompanyId()
+#1 [internal function]: App\Controller\InvoiceController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663235517 IP => ::1 message => TypeError: Cannot access offset of type string on string in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\LoginService.php:38
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(43): App\Services\LoginService::getCompanyId()
+#1 [internal function]: App\Controller\InvoiceController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663235518 IP => ::1 message => TypeError: Cannot access offset of type string on string in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\LoginService.php:38
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(43): App\Services\LoginService::getCompanyId()
+#1 [internal function]: App\Controller\InvoiceController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663235520 IP => ::1 message => TypeError: Cannot access offset of type string on string in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\LoginService.php:38
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(43): App\Services\LoginService::getCompanyId()
+#1 [internal function]: App\Controller\InvoiceController->getIndex()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663235520 IP => ::1 message => TypeError: Cannot access offset of type string on string in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\AccountController.php:139
+Stack trace:
+#0 [internal function]: App\Controller\AccountController->getProfile()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663235937 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(185): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663235956 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(185): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663235977 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(185): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663236052 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(185): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663236073 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(185): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663236086 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(185): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663236191 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(185): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663236238 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(185): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663236430 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(187): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663236478 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(187): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663236520 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(187): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663236563 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(187): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663236602 IP => ::1 message => TypeError: Cannot assign null to property App\Services\InvoiceService::$invoiceProducts of type array in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:269
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(187): App\Services\InvoiceService->setInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postCancel()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663239240 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:7
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239285 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:11
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239286 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:11
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239291 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:11
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239321 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:11
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239368 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:11
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239378 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:11
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239391 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:11
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239396 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:11
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239442 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:11
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239478 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239553 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239554 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239554 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239555 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239555 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239555 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239556 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239556 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239556 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239589 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239590 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239629 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239654 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239680 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239681 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239681 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239682 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239682 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239683 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239692 IP => ::1 message => Error: Failed opening required '/templates/invoice/edit.html' (include_path='.;C:\php\pear') in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php:201
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239693 IP => ::1 message => Error: Failed opening required '/templates/invoice/edit.html' (include_path='.;C:\php\pear') in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php:201
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239699 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239699 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663239700 IP => ::1 message => ParseError: syntax error, unexpected token "echo" in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\templates\invoice\edit.html:12
+Stack trace:
+#0 [internal function]: App\Controller\InvoiceController->getEdit()
+#1 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#3 {main}
+timestamp => 1663308813 IP => ::1 message => Error: Typed property App\Services\InvoiceService::$invoiceProducts must not be accessed before initialization in C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Services\InvoiceService.php:140
+Stack trace:
+#0 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\src\Controller\InvoiceController.php(117): App\Services\InvoiceService->insertProductInvoice()
+#1 [internal function]: App\Controller\InvoiceController->postNew()
+#2 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\vendor\phroute\phroute\src\Phroute\Dispatcher.php(58): call_user_func_array()
+#3 C:\Users\m.d.nicolae\Desktop\qa2dev-mihai\index.php(25): Phroute\Phroute\Dispatcher->dispatch()
+#4 {main}
+timestamp => 1663318829 IP => ::1 message => Account does not exist!
+timestamp => 1663318955 IP => ::1 message => Your account is inactive! Please talk with an admin!
+timestamp => 1663318959 IP => ::1 message => Your account is inactive! Please talk with an admin!
+timestamp => 1663335280 IP => ::1 message => Account does not exist!
+timestamp => 1663335302 IP => ::1 message => Account does not exist!

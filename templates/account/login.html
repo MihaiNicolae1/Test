@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Account</title>
+    <script type="text/javascript" src='../../public/account.js'></script>
+</head>
+<body>
+<div class="row">
+
+    <div class="col-1 col-md-3">
+
+    </div>
+    <div class="col-10 col-md-6">
+        <h2>Welcome to login page!</h2>
+        <form action="/auth/login" method="post">
+            <div class="form-group">
+                <label for="class">Choose account type</label>
+                <select class="form-select form-select-sm" aria-label="Login as" name="class" id="class" required>
+                    <option value="" selected>Login as...</option>
+                    <option value="User">User</option>
+                    <option value="Company">Company</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
+                       placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Login</button>
+        </form>
+    </div>
+    <div class="col-1 col-md-3 ">
+
+    </div>
+</div>
+
+
+</body>
+</html>

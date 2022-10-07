@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add user</title>
+
+</head>
+<body>
+<div class="row">
+
+    <div class="col-1 col-md-3">
+
+    </div>
+    <div class="col-10 col-md-6">
+        <h2>Welcome to Add User page</h2>
+        <p>Please fill the information below!</p>
+        <form method="post" action="/account" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="full_name">Full name</label>
+                <input type="text" class="form-control" id="full_name" name='full_name' placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name='email' placeholder="Email address" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password"
+                       required>
+            </div>
+            <div class="form-group" hidden>
+                <label for="role">Role</label>
+                <input type="text" class="form-control" id="role" name="role" value="regular" required>
+            </div>
+            <div class="form-group">
+                <label for="profile_image">Profile image</label>
+                <input type="file" class="form-control" id="profile_image" name="profile_image" accept="image/*" required>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Create user</button>
+        </form>
+
+
+
+    </div>
+    <div class="col-1 col-md-3 ">
+
+    </div>
+</div>
+
+</body>
+</html>
