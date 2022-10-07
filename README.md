@@ -1,4 +1,3 @@
-# Qa2Dev - Mihai
 
 
 
